@@ -27,7 +27,7 @@ The goal is to make sure all test cases works.
     - Nurse Visit
     - Ambulance
     
-    Video: 
+    Video: https://drive.google.com/file/d/1JlIep4ZIiLzdSqIWNT472qWFkNiGQMGL/view?usp=sharing
 
 2. On Nursing Care Services page, it should validate if
 link: [https://speedoc.com/sg/home-nursing-care-house-call-nurses](https://speedoc.com/sg/home-nursing-care-house-call-nurses)
@@ -35,29 +35,29 @@ link: [https://speedoc.com/sg/home-nursing-care-house-call-nurses](https://speed
     - Indwelling Urinary Catheter (IDC) Insertion prices === $155
     - 5 x Activities of Daily Living (ADL) prices === $450
     
-    Video:
+    Video: https://drive.google.com/file/d/1COg6qpz0aDWI7VGUAMjWV8RXEIQV5LCO/view?usp=sharing
 
 ### Mobile View
 
 1. Should access contact-us page from Speedoc homepage via hamburger menu on the header <br>
 Link: from [https://speedoc.com/sg](https://speedoc.com/sg) >> [https://speedoc.com/sg/contact-us](https://speedoc.com/sg/contact-us) <br>
 Validation: In Penang the 24 Hour Hotline number should +60 11 4166 1178<br>
-Video:
+Video: https://drive.google.com/file/d/1IpX8HL4Oi7QZsALZzblZGBK442OK95rr/view?usp=sharing
 
 2. Should check if [Headache, Burns, Bleeding] are available in video consultation symptoms<br>
 Link: [https://speedoc.com/sg/telemedicine-online-doctors](https://speedoc.com/sg/telemedicine-online-doctors)<br>
-Validation: Each symptoms should be available.
-Video: 
+Validation: Each symptoms should be available.<br>
+Video: https://drive.google.com/file/d/1H8CIZkmC6XSc547tuF7APW8muH6cbz5m/view?usp=sharing
 
 
 3. Should be able to select 5 Chronic Condition on Chronic Diseases Management<br>
 Link: https://speedoc.com/sg/chronic-diseases-management<br>
 Validation: Chronic condition field should contain “Diabetes, High Blood pressure, High Cholesterol, Thyroid Disorder, Other”<br>
-Video: 
+Video: https://drive.google.com/file/d/1WXIUsOaBnBLMLZPJOjb39Gn6-7YWo9YE/view?usp=sharing
 
 ## Task 2 (BDD)
 
-Write test scenario with gherkins, create folder named features inside cypress/integration and cover all test possibilities for this two pages:
+Write test scenarios with `gherkin`, create folder name `features` inside `cypress/integration` and cover all test possibilities for this two pages:
 
 1. [https://speedoc.com/sg/house-call-doctors](https://speedoc.com/sg/house-call-doctors)
 2. [https://speedoc.com/my](https://speedoc.com/my)<br>
