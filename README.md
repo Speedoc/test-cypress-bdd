@@ -1,7 +1,5 @@
 # Speedoc - Cypress BDD Test
 
-# test-cypress-bdd
-
 ## Pre-requisites
 
 - Install Cypress v9.7.0 [https://www.cypress.io/](https://www.cypress.io/)
