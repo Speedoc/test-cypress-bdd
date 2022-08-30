@@ -10,7 +10,9 @@
 //
 //
 // -- This is a parent command --
-// Cypress.Commands.add('login', (email, password) => { ... })
+// Cypress.Commands.add('login', () => {
+//     cy.log('SUCCESSFULLY LOGIN..')
+// })
 //
 //
 // -- This is a child command --
@@ -23,3 +25,7 @@
 //
 // -- This will overwrite an existing command --
 // Cypress.Commands.overwrite('visit', (originalFn, url, options) => { ... })
+
+Cypress.Commands.add('hoverIntoText', (text) => {
+    cy.contains(text).trigger('mouseover')
+})

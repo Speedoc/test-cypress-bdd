@@ -1,0 +1,92 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Video Consultation Feature",
+    "line": 1,
+    "id": "video-consultation-feature",
+    "tags": [],
+    "uri": "VideoConsultation.feature",
+    "elements": [
+      {
+        "id": "video-consultation-feature;verify-symptoms-in-video-consultation-page",
+        "keyword": "Scenario",
+        "line": 2,
+        "name": "Verify Symptoms in Video Consultation Page",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 3,
+            "name": "I on Speedoc Video Consultation Mobile Page",
+            "result": {
+              "status": "passed",
+              "duration": 2246000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 4,
+            "name": "I search 'Headache' symptoms from searchbar",
+            "result": {
+              "status": "passed",
+              "duration": 1446000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 5,
+            "name": "Assert symptoms 'Headache' should be exists in symptoms list",
+            "result": {
+              "status": "passed",
+              "duration": 24000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "I search 'Burns' symptoms from searchbar",
+            "result": {
+              "status": "passed",
+              "duration": 1393000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "Assert symptoms 'Burns' should be exists in symptoms list",
+            "result": {
+              "status": "passed",
+              "duration": 24000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "I search 'Bleeding' symptoms from searchbar",
+            "result": {
+              "status": "passed",
+              "duration": 1425000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "Assert symptoms 'Bleeding' should be exists in symptoms list",
+            "result": {
+              "status": "passed",
+              "duration": 28000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

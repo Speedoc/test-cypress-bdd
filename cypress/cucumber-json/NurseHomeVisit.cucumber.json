@@ -1,0 +1,132 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Speedoc Nurse Home Visit Feature",
+    "line": 1,
+    "id": "speedoc-nurse-home-visit-feature",
+    "tags": [],
+    "uri": "NurseHomeVisit.feature",
+    "elements": [
+      {
+        "id": "speedoc-nurse-home-visit-feature;verify-prices-on-nursing-care-services-page",
+        "keyword": "Scenario",
+        "line": 2,
+        "name": "Verify Prices on Nursing Care Services Page",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 3,
+            "name": "I on Speedoc Desktop Nurse Home Visit Page",
+            "result": {
+              "status": "passed",
+              "duration": 2609000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 4,
+            "name": "I hover into 'Simple Wound Dressing' in Nursing Home Visit Page",
+            "result": {
+              "status": "passed",
+              "duration": 1135000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 5,
+            "name": "Assert prices on Nurse Home Visit page is '$105'",
+            "result": {
+              "status": "passed",
+              "duration": 22000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "I hover into 'Complex Wound Dressing' in Nursing Home Visit Page",
+            "result": {
+              "status": "passed",
+              "duration": 1092000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "Assert prices on Nurse Home Visit page is '$160'",
+            "result": {
+              "status": "passed",
+              "duration": 23000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "I hover into 'Nasogastric Tube (NGT) Insertion' in Nursing Home Visit Page",
+            "result": {
+              "status": "passed",
+              "duration": 1103000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "Assert prices on Nurse Home Visit page is '$140'",
+            "result": {
+              "status": "passed",
+              "duration": 22000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "I hover into 'Indwelling Urinary Catheter (IDC) Insertion' in Nursing Home Visit Page",
+            "result": {
+              "status": "passed",
+              "duration": 1106000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "Assert prices on Nurse Home Visit page is '$155'",
+            "result": {
+              "status": "passed",
+              "duration": 25000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "I hover into 'Activities of Daily Living (ADL)' in Nursing Home Visit Page",
+            "result": {
+              "status": "passed",
+              "duration": 1116000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "Assert prices on Nurse Home Visit page is '$115'",
+            "result": {
+              "status": "passed",
+              "duration": 25000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

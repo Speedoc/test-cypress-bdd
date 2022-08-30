@@ -1,0 +1,102 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Chonic Disease Feature",
+    "line": 1,
+    "id": "chonic-disease-feature",
+    "tags": [],
+    "uri": "ChronicDisease.feature",
+    "elements": [
+      {
+        "id": "chonic-disease-feature;verify-able-to-select-5-chronic-condition",
+        "keyword": "Scenario",
+        "line": 2,
+        "name": "Verify able to select 5 Chronic Condition",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 3,
+            "name": "I on Speedoc Chronic Disease Mobile Page",
+            "result": {
+              "status": "passed",
+              "duration": 5203000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 4,
+            "name": "I click on Dropdown Chronic Condition",
+            "result": {
+              "status": "passed",
+              "duration": 118000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 5,
+            "name": "I click 'Diabetes' text",
+            "result": {
+              "status": "passed",
+              "duration": 1167000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "I click 'High Blood pressure' text",
+            "result": {
+              "status": "passed",
+              "duration": 1158000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "I click 'High Cholesterol' text",
+            "result": {
+              "status": "passed",
+              "duration": 1154000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "I click 'Thyroid Disorder' text",
+            "result": {
+              "status": "passed",
+              "duration": 1159000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "I click 'Other' text",
+            "result": {
+              "status": "passed",
+              "duration": 1169000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "Assert All Listed Chronic Conditions",
+            "result": {
+              "status": "passed",
+              "duration": 58000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

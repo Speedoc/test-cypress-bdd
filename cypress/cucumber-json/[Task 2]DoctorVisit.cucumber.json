@@ -1,0 +1,288 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Speedoc Doctor Visit Feature",
+    "line": 1,
+    "id": "speedoc-doctor-visit-feature",
+    "tags": [],
+    "uri": "[Task 2]DoctorVisit.feature",
+    "elements": [
+      {
+        "id": "speedoc-doctor-visit-feature;verify-doctor-home-visit-page",
+        "keyword": "Scenario",
+        "line": 2,
+        "name": "Verify Doctor Home Visit Page",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 3,
+            "name": "User on Speedoc Doctor Home Visit Page",
+            "result": {
+              "status": "undefined",
+              "duration": 218000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 4,
+            "name": "Assert all elements in Doctor Home Visit Page",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      },
+      {
+        "id": "speedoc-doctor-visit-feature;verify-user-successfully-book-for-doctor-home-visit",
+        "keyword": "Scenario",
+        "line": 6,
+        "name": "Verify User successfully book for Doctor Home Visit",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "User on Speedoc Doctor Home Visit Page",
+            "result": {
+              "status": "undefined"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "User fill out mandatory field for Doctor Home Visit",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "User click Book Button",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "User successfully book Doctor Home Visit",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      },
+      {
+        "id": "speedoc-doctor-visit-feature;verify-prices-for-home-visit-services",
+        "keyword": "Scenario",
+        "line": 12,
+        "name": "Verify Prices for Home Visit Services",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 13,
+            "name": "User on Speedoc Doctor Home Visit Page",
+            "result": {
+              "status": "undefined"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 14,
+            "name": "User hover to 'Primary & Urgent Care Services' section",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 15,
+            "name": "Home Visit Services would be '$200'",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 16,
+            "name": "User hover to 'Preventive Care Services' section",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 17,
+            "name": "Home Visit Services would be '$200'",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 18,
+            "name": "User hover to 'Acute Care Services' section",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 19,
+            "name": "Home Visit Services would be '$200'",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 20,
+            "name": "User hover to 'Lasting Power of Attorney' section",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 21,
+            "name": "Home Visit Services would be '$200'",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 22,
+            "name": "User hover to 'Certification Of Death' section",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 23,
+            "name": "Home Visit Services would be '$250'",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      },
+      {
+        "id": "speedoc-doctor-visit-feature;verify-available-symptoms-from-symptoms-searchbar",
+        "keyword": "Scenario",
+        "line": 25,
+        "name": "Verify Available Symptoms from Symptoms Searchbar",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 26,
+            "name": "User on Speedoc Doctor Home Visit Page",
+            "result": {
+              "status": "undefined"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 27,
+            "name": "User type 'Bleeding' on Symptoms Searchbar",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 28,
+            "name": "'Bleeding' should be available on Symptoms Search Result",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 29,
+            "name": "User type 'Diarrhea' on Symptoms Searchbar",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 30,
+            "name": "'Diarrhea' should be available on Symptoms Search Result",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      },
+      {
+        "id": "speedoc-doctor-visit-feature;verify-download-speedoc-app-button",
+        "keyword": "Scenario",
+        "line": 32,
+        "name": "Verify Download Speedoc App Button",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 33,
+            "name": "User on Speedoc Doctor Home Visit Page",
+            "result": {
+              "status": "undefined"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 34,
+            "name": "User click on Download the App",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 35,
+            "name": "Download Page is diplayed",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

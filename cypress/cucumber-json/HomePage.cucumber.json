@@ -1,0 +1,242 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Speedoc Home Page Feature",
+    "line": 1,
+    "id": "speedoc-home-page-feature",
+    "tags": [],
+    "uri": "HomePage.feature",
+    "elements": [
+      {
+        "id": "speedoc-home-page-feature;verify-click-on-button-hero-doctor-visit",
+        "keyword": "Scenario",
+        "line": 2,
+        "name": "Verify Click on Button Hero Doctor Visit",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 3,
+            "name": "I on Speedoc Desktop Home Page",
+            "result": {
+              "status": "passed",
+              "duration": 2727000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 4,
+            "name": "I click Button Hero 'Doctor Visit'",
+            "result": {
+              "status": "passed",
+              "duration": 242000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 5,
+            "name": "All element on Button Hero 'Doctor Visit' should be visible and exists",
+            "result": {
+              "status": "passed",
+              "duration": 82000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "speedoc-home-page-feature;verify-click-on-button-hero-nurse-visit",
+        "keyword": "Scenario",
+        "line": 7,
+        "name": "Verify Click on Button Hero Nurse Visit",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 8,
+            "name": "I on Speedoc Desktop Home Page",
+            "result": {
+              "status": "passed",
+              "duration": 1763000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "I click Button Hero 'Nurse Visit'",
+            "result": {
+              "status": "passed",
+              "duration": 132000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "All element on Button Hero 'Nurse Visit' should be visible and exists",
+            "result": {
+              "status": "passed",
+              "duration": 66000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "speedoc-home-page-feature;verify-click-on-button-hero-video-consult",
+        "keyword": "Scenario",
+        "line": 12,
+        "name": "Verify Click on Button Hero Video Consult",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 13,
+            "name": "I on Speedoc Desktop Home Page",
+            "result": {
+              "status": "passed",
+              "duration": 1724000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 14,
+            "name": "I click Button Hero 'Video Consult'",
+            "result": {
+              "status": "passed",
+              "duration": 205000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 15,
+            "name": "All element on Button Hero 'Video Consult' should be visible and exists",
+            "result": {
+              "status": "passed",
+              "duration": 31000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "speedoc-home-page-feature;verify-click-on-button-hero-ambulance",
+        "keyword": "Scenario",
+        "line": 17,
+        "name": "Verify Click on Button Hero Ambulance",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 18,
+            "name": "I on Speedoc Desktop Home Page",
+            "result": {
+              "status": "passed",
+              "duration": 1716000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 19,
+            "name": "I click Button Hero 'Ambulance'",
+            "result": {
+              "status": "passed",
+              "duration": 153000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 20,
+            "name": "All element on Button Hero 'Ambulance' should be visible and exists",
+            "result": {
+              "status": "passed",
+              "duration": 70000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "speedoc-home-page-feature;verify-penang-hotline-number-in-contact-us-from-home-page",
+        "keyword": "Scenario",
+        "line": 22,
+        "name": "Verify Penang Hotline Number in Contact Us from Home Page",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 23,
+            "name": "I on Speedoc Mobile Home Page",
+            "result": {
+              "status": "passed",
+              "duration": 1876000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 24,
+            "name": "I click on Hamburger Menu",
+            "result": {
+              "status": "passed",
+              "duration": 974000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 25,
+            "name": "I click 'Help' text",
+            "result": {
+              "status": "passed",
+              "duration": 1192000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 26,
+            "name": "I click 'Contact Us' text",
+            "result": {
+              "status": "passed",
+              "duration": 1248000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 27,
+            "name": "I click 'PENANG' text",
+            "result": {
+              "status": "passed",
+              "duration": 1208000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 28,
+            "name": "I can see '24 Hour Hotline: +60 11 4166 1178' text",
+            "result": {
+              "status": "passed",
+              "duration": 22000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
